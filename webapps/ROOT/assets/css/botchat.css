@@ -140,6 +140,7 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
 
 /* messages */
 .wc-message-wrapper {
+  min-height: 38px;
   animation: animationFrames 2s;
   animation-iteration-count: 1;
   clear: both;
@@ -405,8 +406,9 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
   margin-left: 40px; }
 
 .wc-message-from-bot .wc-message-content {
-  background-color: #fff;
-  color: #000000; }
+  background-color: #ffffff;
+  color: #a0a0a0; 
+  border-radius:15px;}
 
 .wc-message-from-bot svg.wc-message-callout path {
   fill: #eceff1; }
